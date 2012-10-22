@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<celerit>
+	<!-- Define the server default connector -->
+
+	<connector name="default" type="http1.1" port="8080" />
+	
+	<docroot>
+		<explode-wars>false</explode-wars>
+		<location>/home/celeritapps</location>
+	</docroot>
+</celerit>
+
